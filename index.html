@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Teleport</title>
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="navbar has-background-grey-light">
+            <img src="./assets/Images/Untitled_Artwork.png" class="logo navbar-brand px-2 py-2">
+            <div class="navbar-menu">
+                <div class="navbar-brand navbar-item">
+                    <h1 class="title">Emergency Teleport</h1>
+                </div>
+                <div class=" navbar-item has-dropdown is-hoverable is-right">
+                    <a class="navbar-link">
+                        Menu
+                    </a>
+                    <div class="navbar-dropdown is-right">
+                        <a href="#POD"class="navbar-item">
+                            Daily Picture
+                        </a>
+                        <a href="#Asteroid"class="navbar-item">
+                            Asteroid
+                        </a>
+                        <a href ="#button"class="navbar-item">
+                            Get Tickets
+                        </a>
+                        <hr class="navbar-divider">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<section id="thepod" class="column is-half is-offset-one-quarter">
+    <div>
+        <h1 class="has-text-centered">Hello travelers!</h1>
+        <p>Are you ready for the journey of a lifetime? You better be! Unfortunately today: <span id="time-display"></span>, NASA's systems have detected an asteroid set to collide with Earth, all preventative attempts have failed. Lucky for us, brand new teleportation technology has been developed that will allow Earth’s residents to teleport to cataloged exoplanets that are most likely to support life. Some exoplanets are more habitable than others, but they would not be able to support all of Earth’s population. To maintain fairness, a lottery system has been put in place to randomly assign your teleport location. Many of you will have a pleasant relocation! As for the others, we wish you luck on your endeavors.</p>
+        <p class="has-text-centered">As you prepare for your journey, please enjoy this daily picture of space!</p>
+    </div>
+    
+    <div id="POD" class="">
+        <img>
+    </div>
+</section>
+<section id="theasteroid" class="column is-half is-offset-one-quarter">
+    <div id="Asteroid">
+        <div id="incoming">Incoming Asteroid</div>
+        <div id="distance" ></div>
+        <div id="size" ></div>
+        <div id="hazardous" ></div>
+        <div id="name" ></div>
+        <div id="velocity" ></div>
+        <div id="impact">Impact Time: <span id="countdown"></span></div>
+    </div>
+</section>
+<section id="" class="column is-half is-offset-one-quarter">
+    <div id="Exoplanet">
+        <div class="buttons">
+            <button class="button is-link is-large column is-half is-offset-one-quarter" id="button">Generate Ticket</button>
+        </div>
+
+        <div class="modal" id="form-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <!-- Any other Bulma elements you want -->
+                    <div class="section modal-wrap">
+                             <div class="field">
+                                 <label class="label is-large">First Name</label>
+                                 <div class="control">
+                                     <input class="input is-rounded is-large" type="text" placeholder="e.g Alex" id="firstName">
+                                 </div>
+                             </div>
+                         
+                             <div class="field">
+                                 <label class="label is-large">Last Name</label>
+                                 <div class="control">
+                                     <input class="input is-rounded is-large" type="text" placeholder="e.g. Smith" id="lastName">
+                                 </div>
+                             </div>
+                         
+                             <div class="field">
+                                 <label class="label is-large">How many will be joining you?</label>
+                                 <div class="control">
+                                     <input class="input is-rounded is-large" type="text" placeholder="e.g. five, 55" id="familyCount">
+                                 </div>
+                             </div>              
+                         
+                             <div class="field">
+                                 <div class="control">
+                                     <label class="checkbox">
+                                         <input type="checkbox">
+                                         I agree to the <a href="#">terms and conditions</a>
+                                     </label>
+                                 </div>
+                             </div>
+                             <div class="control">
+                                 <button class="button is-primary" action="ticket.html" id="submit">Submit</button>
+                             </div>
+                </div>
+            </div>
+            <button class="modal-close is-large is-warning" aria-label="close"></button>
+        </div>
+    </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+    <script src="./assets/JS/script.js"></script>
+    <script src="./assets/JS/modal.js"></script>
+</body>
+
+</html>

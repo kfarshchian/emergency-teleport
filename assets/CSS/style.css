@@ -1,0 +1,111 @@
+
+body {
+    background-color: #121212;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 80px;
+}
+#POD{
+ height: auto;
+ width: auto;
+}
+#impact{
+    font-size:xx-large;
+    color: red; 
+}
+#countdown{
+    color: red; 
+}
+#Asteroid{
+text-align: center;
+}
+#hazardous{
+    color: red;
+}
+#incoming{
+    text-decoration: underline;
+    font-size: xx-large;
+}
+#thepod{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 15px;
+}
+#theasteroid{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 15px;
+}
+#theform{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 15px;
+}
+#themodal{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    margin-top: 15px;
+}
+.modal-wrap {
+    background: rgba(166, 154, 200, 0.919);
+    position: fixed;
+    width: 650px;
+    top: 30%;
+    border-radius: 35px;
+}
+.navbar-menu {
+    display: none;
+    justify-content: space-between;
+}
+#destination{
+    color: #121212;
+    text-decoration: underline;
+}
+#planetName{
+    color: #121212;
+}
+#star{
+    color: #121212;
+}
+#distance{
+    color: #121212;
+}
+#temperature{
+    color: #121212;
+}
+#notes{
+    color: #121212;
+}
+#firstName{
+    color: #121212;
+}
+#lastName{
+    color: #121212;
+}
+#familyCount{
+    color: #121212;
+}
+#disclaimer{
+    color: #121212;
+}
+
+hr {
+    border: none;
+    border-top: 5px solid black;
+    height: 5px;
+    width: 100%;
+}
