@@ -15,7 +15,7 @@ Giphy - Planet stickers
 
 ## Usage
 
-https://wardnathan.github.io/group-2-project-1/
+https://kfarshchian.github.io/emergency-teleport/
 
 ![alttext](./assets/Images/site1.png)
 
