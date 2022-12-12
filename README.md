@@ -23,6 +23,8 @@ https://wardnathan.github.io/group-2-project-1/
 
 ![alttext](./assets/Images/site3.png)
 
+![alttext](./assets/Images/site4.png)
+
 ## Credits
 
 Kameron Farshchian, 
