@@ -50,7 +50,7 @@ function displayTime() {
 displayTime()
 
 
-let countDownDate = new Date("Jan 5, 2023 15:37:25").getTime();
+let countDownDate = new Date("Jan 5, 2025 15:37:25").getTime();
 let interval = setInterval(function() {
 let now = new Date().getTime();
 let distance = countDownDate - now;
